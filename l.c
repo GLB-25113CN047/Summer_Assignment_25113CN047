@@ -12,7 +12,7 @@ int linearSearch(int arr[], int size, int key) {
 int main() {
     int data[] = {10, 50, 30, 70, 80};
     int key = 30;
-    int size = sizeof(data) / sizeof(data[0]);
+    int size = sizeof(dataa) / sizeof(data[0]);
     
     int result = linearSearch(data, size, key);
     
