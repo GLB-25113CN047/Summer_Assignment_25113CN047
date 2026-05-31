@@ -7,5 +7,11 @@ int main(){
     for(int i=n;i>0;i=i/10){
         sum=sum+(i%10)*(i%10)*(i%10);
     }
-    printf("Arm")
+    if(sum==n){
+        printf("This Number is Armstrong Number");
+    }
+    else{
+        printf("This Numbr is not Armstrong Number");
+    }
+    return 0;
 }
