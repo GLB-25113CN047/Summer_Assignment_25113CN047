@@ -11,10 +11,10 @@ int main(){
             }
         }
         if(i==j){
-            printf("\nThe given number is prime ",i);
+            printf("\nThe given number is prime %d",i);
         }
         else{
-            printf("\nThe given number is not prime");
+            printf("\nThe given number is not prime %d",i);
         }
     }
     
