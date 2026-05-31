@@ -6,8 +6,7 @@ int main(){
     scanf("%d",&n);
     for(int i=2;i<=n;i++){
         if(n%i==0){
-            p++;
-        }
+            p++;        }
     }
     if(p==1){
         printf("The given Number is prime");
