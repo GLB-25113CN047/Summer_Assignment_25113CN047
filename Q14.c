@@ -9,6 +9,6 @@ int main(){
         a=b;
         b=c;
     }
-    printf("Nth Arm Numbr %d",a);
+    printf("Nth Fibo Numbr %d",a);
     return 0;
 }
