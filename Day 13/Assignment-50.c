@@ -12,7 +12,7 @@ int main(){
         s=s+a[i];
     }
     avg=s/n;
-    printf("sum=%d",s);
+    printf("sum=%d ",s);
     printf("\nAvergae=%f",avg);
     return 0;
 }
