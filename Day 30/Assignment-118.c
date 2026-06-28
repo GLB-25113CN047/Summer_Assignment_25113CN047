@@ -10,7 +10,7 @@ int main()
     scanf("%d",&nos);
     for(int i=0;i<nos;i++)
     {
-        printf("\nBOOK %d\n",i+1);
+        printf("\nBOOK_%d\n",i+1);
         printf("Enter the Book ID.:");
         scanf("%d",&rn[i]);
         printf("Enter the Book Name(Without Spaces):");
@@ -20,11 +20,11 @@ int main()
         printf("Enter the No of Copies:");
         scanf("%d",&m[i]);
     }
-    printf("\nLibrary Records\n");
+    printf("\nMini Library Records\n");
     for(int i=0;i<nos;i++)
     {
-        printf("\n________Library Record___________\n");
-        printf("\nBook %d\n",i+1);
+        printf("\n________Mini Library Record___________\n");
+        printf("\nBook_%d\n",i+1);
         printf("Book ID %d\n",rn[i]);
         printf("Book Name %s\n",n[i]);
         printf("Author Name %s\n",aur[i]);
